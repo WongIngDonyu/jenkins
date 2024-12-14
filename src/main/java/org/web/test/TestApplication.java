@@ -18,6 +18,6 @@ class HelloController {
 
     @GetMapping("/")
     public String home() {
-        return "Application deployed successfully via Jenkins!";
+        return "Application deployed successfully via Jenkins!TEST";
     }
 }
